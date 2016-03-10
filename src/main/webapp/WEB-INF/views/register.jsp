@@ -33,7 +33,7 @@
 	</div>
 	
 	<div id = "bottom" >
-		<form action="${contextPath}/addUser" method = "POST">
+		<form action="${contextPath}/addUser" method = "POST" enctype="multipart/form-data">
 			<table>
             	<tr>
                 	<td>Email:</td>
@@ -55,6 +55,10 @@
                 	<td>Sex:</td>
                 	<td><input type='radio' name='sex'  value='M' checked/>Man</td>
                 	<td><input type='radio' name='sex'  value='W'/>Woman</td>
+            	</tr>
+            	<tr>
+            		<td>User image:</td>
+            		<td><input type='file' name='image' /></td>
             	</tr>
             	<tr>
                 	<td colspan='2'><input name="submit" type="submit" value="Login" /></td>

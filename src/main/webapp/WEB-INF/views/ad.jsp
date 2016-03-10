@@ -38,7 +38,6 @@
 		<p>Description:</p>
 		<p>		${ad.getDescription()}</p>
 		<p>Views : ${ad.getViews()}</p>
-		<p>${ad.getIdAd()}</p>
 		<p>Region : ${ad.getRegion()}</p>
 		<p>City : ${ad.getCity()}</p>
 		<hr width = "70%" align = "left" />

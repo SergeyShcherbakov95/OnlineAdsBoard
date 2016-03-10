@@ -33,7 +33,7 @@
 	</div>
 	
 	<div id = "bottom" >
-		<p><img src="<c:url value='${user.getImageUser().getPathToImage()}' />" /></p>
+		<p><img src="<c:url value='${user.getImageUser().getPathToImage()}' />"  /></p>
 		<p>User: </p>
 		<p>Email - ${user.getEmail()}</p>
 		<p>Surname - ${user.getSurname()}</p>
